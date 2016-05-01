@@ -274,6 +274,7 @@ config WIFI_CONTROL_FUNC
 	  Enables Power/Reset/Carddetect function abstraction
 
 source "drivers/net/wireless/ath/Kconfig"
+source "drivers/net/wireless/8192cu/Kconfig"
 source "drivers/net/wireless/b43/Kconfig"
 source "drivers/net/wireless/b43legacy/Kconfig"
 source "drivers/net/wireless/bcmdhd/Kconfig"

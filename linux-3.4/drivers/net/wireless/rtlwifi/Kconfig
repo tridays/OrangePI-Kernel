@@ -32,7 +32,7 @@ config RTL8192DE
 
 	If you choose to build it as a module, it will be called rtl8192de
 
-config RTL8192CU
+config RTL8192CU-OLD
 	tristate "Realtek RTL8192CU/RTL8188CU USB Wireless Network Adapter"
 	depends on MAC80211 && USB && EXPERIMENTAL
 	select FW_LOADER
