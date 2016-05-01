@@ -1,5 +1,14 @@
 Linux Kernel for OrangePI H3 boards
 ===================================
+Mention
+-----
+This configuration use an usb root partition as root filesystem to avoid sdcard broken.
+
+When I changed the boot option in kernel configuration,the Orange PI couldn't boot with
+an USB RAID partition as root filesystem normally sometimes even with rootwait rootdeley=10 
+option. The reason is that the inactivated RAID box was totally stoped after some time 
+without R/W,so the OPI can't detect and use the USB storage as expected.Just unplug the
+power and plugin right at the time,the OPI can start to work!!!
 
 About
 -----
