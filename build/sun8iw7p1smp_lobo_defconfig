@@ -496,7 +496,7 @@ CONFIG_ARM_FLUSH_CONSOLE_ON_RESTART=y
 # CONFIG_USE_OF is not set
 CONFIG_ZBOOT_ROM_TEXT=0
 CONFIG_ZBOOT_ROM_BSS=0
-CONFIG_CMDLINE="earlyprintk=ttyS0,115200 loglevel=8 initcall_debug=0 console=ttyS0,115200 console=tty0 root=/dev/sda2 rootfstype=ext3 rootwait init=/sbin/init"
+CONFIG_CMDLINE="earlyprintk=ttyS0,115200 loglevel=8 initcall_debug=0 console=ttyS0,115200 console=tty0 root=/dev/sda2 rootfstype=ext3 rootwait rootdelay=10 init=/sbin/init"
 # CONFIG_CMDLINE_FROM_BOOTLOADER is not set
 # CONFIG_CMDLINE_EXTEND is not set
 CONFIG_CMDLINE_FORCE=y
