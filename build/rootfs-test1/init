@@ -80,7 +80,7 @@ while true; do
 	/bin/sleepx 1
 done
 
-_tmo=4
+_tmo=40
 while [ $_tmo -gt 0 ]; do
 	if [ -b /dev/sda ] || [ -b /dev/sdb ] || [ -b /dev/sdc ]; then
 		break
