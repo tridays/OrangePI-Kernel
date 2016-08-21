@@ -83,7 +83,7 @@ make_kernel() {
     # #############################################################################
     # build kernel (use -jN, where N is number of cores you can spare for building)
     echo "  Building kernel & modules ..."
-    make -j6 ARCH=arm CROSS_COMPILE=${cross_comp}- uImage modules >> ../kbuild_${1}_${2}.log 2>&1
+    make -j8 ARCH=arm CROSS_COMPILE=${cross_comp}- uImage modules >> ../kbuild_${1}_${2}.log 2>&1
     if [ $? -ne 0 ] || [ ! -f arch/arm/boot/uImage ]; then
         echo "  Error: KERNEL NOT BUILT."
         exit 1

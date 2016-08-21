@@ -1,0 +1,7 @@
+malibuild.log
+rootfs-lobo.img
+kbuild_2_.log
+build/uImage_OPI-2
+build/rootfs-lobo.img.gz
+build/kernel.img
+build/lib.opi2/
